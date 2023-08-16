@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LOGIN PAGE</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar">
+  <div class="container-fluid">
+    <a  class="navbar-brand" routerLink="/home">
+      <img src="assets/login1.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+      Loginpage
+    </a>
+  </div>
+</nav>
+<div class="login-box">
+  <h2>Login</h2>
+  <form [formGroup]="loginform" (ngSubmit)= "login()">
+    <div class="user-box">
+      <input formControlName= "Name" type="text" name="" required="">
+      <label>Username</label>
+
+      <small *ngIf="loginform.controls['Name'].dirty && loginform.hasError('required','Name')" class="text-danger"  class="align-top text-danger"><b>*username is required</b></small>
+
+    </div>
+    
+    <div class="user-box">
+      <input formControlName= "Password" type="password" name="" required="">
+      <label>Password</label>
+      <small *ngIf="loginform.controls['Password'].dirty && loginform.hasError('required','Password')" class="text-danger" class="align-top text-danger"><b>*password is required</b></small>
+    </div>
+
+   <button><a type="submit"> 
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>Login</a>
+  </button> 
+    
+  </form>
+  <a style ="color: aliceblue; margin-top: 20px;" routerLink="/signup" color="aquablue mt-2"> Click here!! to signup</a>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

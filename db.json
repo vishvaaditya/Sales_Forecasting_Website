@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupusers": [
+    {
+      "Name": "Vishva",
+      "Password": "12345",
+      "id": 2
+    },
+    {
+      "Name": "Vishva",
+      "Password": "12345",
+      "id": 3
+    },
+    {
+      "Name": "manojkim",
+      "Password": "99628",
+      "id": 4
+    },
+    {
+      "Name": "sumathi",
+      "Password": "1973",
+      "id": 5
+    },
+    {},
+    {
+      "Name": "Vishva aditya",
+      "Password": "123456",
+      "id": 7
+    },
+    {
+      "Name": "vishvaaditya7@gmail.com",
+      "Password": "12345",
+      "id": 8
+    },
+    {
+      "Name": "vishva",
+      "Password": "12345",
+      "id": 9
+    },
+    {
+      "Name": "vishvaaditya7@gmail.com",
+      "Password": "12345",
+      "id": 10
+    },
+    {
+      "Name": "mg santhosh",
+      "Password": "2006",
+      "id": 11
+    }
+  ],
+  "login_user": [
+    {
+      "Name": "Vishva",
+      "Password": "12345",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

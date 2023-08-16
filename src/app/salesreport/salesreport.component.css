@@ -1,0 +1,12 @@
+body{
+
+    min-height: 100vh;
+    background: lavender;
+  }
+  
+  .navbar{
+    background: rgb(44, 89, 224);
+    background: linear-gradient(90deg,rgb(160, 29, 241)0%,rgb(33, 15, 228)100%);
+  
+  }
+ 

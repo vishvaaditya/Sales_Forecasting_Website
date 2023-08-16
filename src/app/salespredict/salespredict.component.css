@@ -1,0 +1,25 @@
+body{
+
+    min-height: 100vh;
+    background: rgb(11, 119, 181);
+    background: linear-gradient(90deg,rgb(251, 190, 212)0%,rgb(167, 193, 243)100%);
+  }
+
+  .card{
+    margin-top: 10px;
+    border: none;
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background: rgb(11, 119, 181);
+    background: linear-gradient(90deg,rgb(241, 173, 204)0%,rgb(100, 138, 210)100%);
+}
+  
+.navbar{
+  background: rgb(11, 119, 181);
+  background: linear-gradient(90deg,rgb(215, 87, 134)0%,rgb(64, 119, 222)100%);
+}
+ 
